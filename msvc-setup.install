@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/msvc-setup/META" {"META"}
+  "_build/install/default/lib/msvc-setup/dune-package" {"dune-package"}
+  "_build/install/default/lib/msvc-setup/opam" {"opam"}
+]
+bin: [
+  "_build/install/default/bin/msvc-setup.exe" {"msvc-setup.exe"}
+]

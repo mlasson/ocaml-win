@@ -1,0 +1,12 @@
+
+opam-version: "2.0"
+version: "1.0"
+maintainer: "marc.lasson@gmail.com"
+authors: ["Marc Lasson"]
+homepage: "https://github.com/mlasson/msvc-setup"
+bug-reports: "https://github.com/mlasson/msvc-setup/issues"
+dev-repo: "git+https://github.com/mlasson/msvc-setup.git"
+license: "Apache-2.0"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]

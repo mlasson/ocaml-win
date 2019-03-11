@@ -1,0 +1,5 @@
+(executables
+ (public_names msvc-setup)
+ (names main)
+ (libraries unix)
+)
